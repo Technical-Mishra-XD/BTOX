@@ -5,7 +5,6 @@
 from .structures import LookupDict
 
 _codes = {
-
     
     100: ('continue',),
     101: ('switching_protocols',),
@@ -21,9 +20,8 @@ _codes = {
     206: ('partial_content', 'partial'),
     207: ('multi_status', 'multiple_status', 'multi_stati', 'multiple_stati'),
     208: ('already_reported',),
-    226: ('im_used',),
+    226: ('used',),
 
-    
     300: ('multiple_choices',),
     301: ('moved_permanently', 'moved', '\\o-'),
     302: ('found',),
